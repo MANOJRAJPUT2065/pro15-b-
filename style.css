@@ -1,0 +1,79 @@
+.container {
+    width: 500px;
+    height: 800px;
+  
+    background-color: #7979788d;
+    padding-left: 40px;
+  }
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+    border-radius: 3px;
+    background-color: rgba(43, 139, 80, 0.416);
+color: white;
+    background-color: blue;
+    animation: slide 3s ease infinite;
+  }
+  
+
+
+
+  @keyframes transform {
+    0% {
+        transform: translateX(0);
+      }
+      50% {
+        transform: translateX(200px);
+      }
+      100% {
+        transform: translateX(0);
+      }
+}
+
+
+
+
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+    display: table;
+  }
+  
+  #results {
+    font-size: 35px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+  animation: both;
+  animation-name: button;
+    font-size: 25px;
+  }
+  @keyframes button {
+    0% {
+        box-shadow: 0 0 5px rgba(7, 150, 246, 0.7);
+    }
+    100% {
+        box-shadow: 0 0 20px rgba(3, 142, 235, 0.7);
+    }
+}
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+    
+  }
+  
